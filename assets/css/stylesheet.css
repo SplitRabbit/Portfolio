@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #f3c2c1;
-    --secondary-color:#ec9b87;
-    --tertiary-color: #ec6c44;
+    --primary-color:#C3B1E1 ;
+    --secondary-color:#F8C8DC;
+    --tertiary-color: #aec6cf;
   }
 
   * {
@@ -176,56 +176,17 @@
     text-decoration: none;
     color: black;
   }
-  
-  .selected {
-    background-color: #f36f48;
-    font-weight: bold;
-    color: white;
-  }
-  
-  li {
-    margin-bottom: 15px;
-    font-weight: bold;
-  }
-
-
-  #insta-image {
-    display: block;
-    width: 100px;
-    height: 100px;
-    border: 5px solid #d7d7d7;
-    border-radius: 50%;
-    margin: auto;
-    margin-top: -75px;
-  }
-
-  .copyright {
-    font-size: 8pt;
-    text-align: right;
-    padding-bottom: 10px;
-    color: grey;
-  }
 
   /* FOOTER STYLES START */
 footer {
     background: var(--primary-color);
     padding: 40px 35px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
   }
   
-  footer h2 {
-    color: white;
-    font-size: 30px;
-    margin: 0;
-  }
-  
-  footer div {
-    line-height: 1.5;
-    text-align: right;
-  }
   
   footer a {
     color: white;
@@ -244,3 +205,17 @@ h2 {
    width: 100%; 
 }
 
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 900px) {
+    #firstlogo {
+      width: 30%;
+      height: 30%;
+    }
+
+    .logo {
+        width: 10%;
+        height: 10%;
+    }
+
+  }
+  
