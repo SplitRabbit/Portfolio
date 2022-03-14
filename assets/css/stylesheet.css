@@ -65,6 +65,10 @@
     border-radius:200px;
     text-align: center;
   }
+
+  .section img:hover{
+      opacity:40%;
+  }
   
 /* HEADER / NAV BAR STYLES START */
 
