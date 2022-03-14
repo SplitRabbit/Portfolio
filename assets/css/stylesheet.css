@@ -1,0 +1,223 @@
+:root {
+    --primary-color: #f3c2c1;
+    --secondary-color:#ec9b87;
+    --tertiary-color: #ec6c44;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26pt;
+    background-color: var(--primary-color);
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .logo{
+    width: 100px;
+    height: 100px;
+  }
+
+  header img{
+      width: 99%;
+      margin: 100px;
+  }
+
+  h1 {
+    font-size: 15pt;
+    color: var(--tertiary-color);
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+  }
+  
+  h1 span {
+    border: 8px solid #666666;
+    border-radius: 100px;
+    padding: 12px;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0;
+    color: #000000;
+  }
+  
+  .img-circle {
+    border: 8px solid white;
+    border-radius: 50%;
+  }
+  
+  .section {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    margin:auto;
+    border-radius:200px;
+    text-align: center;
+  }
+  
+/* HEADER / NAV BAR STYLES START */
+
+#rabbitlogo {
+    height: 120px;
+    width: 100px;
+    margin: auto;
+}
+
+.fit {
+    max-width: 100%;
+    max-height: 99%;
+    opacity: 80%;
+    background-blend-mode: normal;
+  }
+
+  header {
+    padding: 20px 35px;
+    background-color: rgba(0, 0, 0, 0) ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: black;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+  
+  /* HEADER / NAVBAR STYLES END */
+  
+  #header p {
+    font-size: 60pt;
+    color: #ffffff;
+    padding-top: 8px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .resources{
+    margin:auto 100px auto 100px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+    color: grey;
+  }
+  
+  div {
+    text-align: center;
+    margin: 20px 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+  }
+  
+  li {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+
+  #insta-image {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #d7d7d7;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -75px;
+  }
+
+  .copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+  }
+
+  /* FOOTER STYLES START */
+footer {
+    background: var(--primary-color);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  footer h2 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  footer a {
+    color: white;
+  }
+  /* END FOOTER STYLES */
+  
